@@ -1,0 +1,49 @@
+body{
+    background: rgb(0, 0, 0);
+}
+.container{
+height: 100vh;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.container div{
+padding: 20px;
+transition:0.2s ;
+width: 160px;
+margin: 10PX;
+border-radius:10px;
+text-align: center;
+flex-basis: 300px;
+}
+.container div:hover{
+    filter: blur(1px) hue-rotate(180deg);
+}
+.box1{
+    background: #00ffb3;
+    color: white;
+}
+.box2{
+    background: rgb(0, 162, 255);
+    color: white;
+}
+.box3{
+    background: rgb(255, 153, 0);
+    color: white;
+}
+.box4{
+    background: rgb(53, 226, 0);
+    color: white;
+    order: 6;
+}
+.box5{
+    background: rgb(255, 0, 0);
+    color: white;
+    order: 5;
+}
+.box6{
+    background: rgb(255, 0, 234);
+    color: white;
+    order: 4;
+}
